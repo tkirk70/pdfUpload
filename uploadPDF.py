@@ -39,7 +39,7 @@ print(response.text)
 url = "https://secure-wms.com/orders/1225250/files?name=1019"
 
 # Path to the PDF file
-pdf_file_path = "1019.pdf"
+pdf_file_path = "1019.pdf" #forward slashes.
 
 headers = {
   'Content-Type': 'application/pdf',
