@@ -35,8 +35,11 @@ j = response.json()
 print(response.status_code)
 print(response.text)
 
+transaction = 1225250
+name = '1019'
+
 # API endpoint URL
-url = "https://secure-wms.com/orders/1225250/files?name=1019"
+url = f"https://secure-wms.com/orders/{transaction}/files?name={name}"
 
 # Path to the PDF file
 pdf_file_path = "1019.pdf" #forward slashes.
