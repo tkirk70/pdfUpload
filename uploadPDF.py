@@ -54,3 +54,13 @@ with open(pdf_file_path, "rb") as pdf_file:
 # Print response
 print(response.status_code) #201 = success
 print(response.text)
+
+'''
+Loop through Scans folder to find file names and transaction numbers.
+Match pdf with correct transaction.
+Move successful uploads to Processed folder.
+Write try/except blocks to capture errors.
+Set up notifications for success/failure.
+Send email with results of what was uploaded to which transaction.
+Create batch file and run in Task Scheduler.
+'''
